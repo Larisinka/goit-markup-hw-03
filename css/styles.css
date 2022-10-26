@@ -16,6 +16,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* header */
 /* logo */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -24,14 +25,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: var(--logo-color);
-}
-.logo-blue-text {
   color: var(--link-color);
+}
+.header-logo-text {
+  color: var(--logo-color);
 }
 
 /* navigation */
-.site-navigation-links {
+.nav-list {
   list-style: none;
 }
 .nav-link {
@@ -43,12 +44,12 @@ body {
   color: var(--text-color);
 }
 
-.current {
+.nav-link-current {
   color: #2196f3;
 }
 
-.nav-link-email,
-.nav-link-tel {
+.nav-contacts-email,
+.nav-contacts-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,21 +59,21 @@ body {
 }
 
 .nav-link:hover,
-.nav-link-email:hover,
-.nav-link-tel:hover,
+.nav-contacts-email:hover,
+.nav-contacts-tel:hover,
 .nav-link:focus,
-.nav-link-email:focus,
-.nav-link-tel:focus {
+.nav-contacts-email:focus,
+.nav-contacts-tel:focus {
   color: var(--link-color);
 }
 
 /* index.html main */
 /* section 1 */
-.section-one {
+.hero {
   background-color: var(--secondary-backgroung-color);
 }
 
-.title {
+.hero-title {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -82,7 +83,7 @@ body {
   color: var(--primary-white-color);
 }
 
-.section-one-button {
+.hero-button {
   width: 216px;
   height: 50px;
   background: var(--link-color);
@@ -98,16 +99,16 @@ body {
   cursor: pointer;
 }
 
-.section-one-button:hover {
+.hero-button:hover {
   background: var(--button-color);
 }
 
 /* section 2 */
 
-.advantages {
+.advantages-list {
   list-style: none;
 }
-.advantages-title {
+.advantages-subtitle {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -132,15 +133,15 @@ body {
   letter-spacing: 0.03em;
 }
 
-.services {
+.services-list {
   list-style: none;
 }
 
 /* section 4 */
-.section-four {
+.team {
   background: var(--primary-background-color);
 }
-.team {
+.team-list {
   list-style: none;
 }
 
@@ -166,11 +167,11 @@ body {
   background-color: var(--secondary-backgroung-color);
 }
 
-.logo-footer {
+.footer-logo-text {
   color: var(--primary-white-color);
 }
 
-.address {
+.address-list {
   list-style: none;
 }
 
