@@ -1,0 +1,249 @@
+:root {
+  --logo-color: #000;
+  --text-color: #212121;
+  --link-color: #2196f3;
+  --button-color: #188ce8;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --primary-background-color: #f5f4fa;
+  --secondary-backgroung-color: #2f303a;
+}
+
+/* Body */
+body {
+  color: var(--text-color);
+  background-color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
+}
+
+/* logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--logo-color);
+}
+.logo-blue-text {
+  color: var(--link-color);
+}
+
+/* navigation */
+.site-navigation-links {
+  list-style: none;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.current {
+  color: #2196f3;
+}
+
+.nav-link-email,
+.nav-link-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.nav-link:hover,
+.nav-link-email:hover,
+.nav-link-tel:hover,
+.nav-link:focus,
+.nav-link-email:focus,
+.nav-link-tel:focus {
+  color: var(--link-color);
+}
+
+/* index.html main */
+/* section 1 */
+.section-one {
+  background-color: var(--secondary-backgroung-color);
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.section-one-button {
+  width: 216px;
+  height: 50px;
+  background: var(--link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+
+.section-one-button:hover {
+  background: var(--button-color);
+}
+
+/* section 2 */
+
+.advantages {
+  list-style: none;
+}
+.advantages-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.advantages-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* section 3 */
+.services-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.services {
+  list-style: none;
+}
+
+/* section 4 */
+.section-four {
+  background: var(--primary-background-color);
+}
+.team {
+  list-style: none;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--secondary-backgroung-color);
+}
+
+.logo-footer {
+  color: var(--primary-white-color);
+}
+
+.address {
+  list-style: none;
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address-link-email,
+.address-link-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address-link:hover,
+.address-link-email:hover,
+.address-link-tel:hover,
+.address-link:focus,
+.address-link-email:focus,
+.address-link-tel:focus {
+  color: var(--link-color);
+}
+
+/* portfolio styles  */
+
+.filter {
+  list-style: none;
+}
+
+.filter-button {
+  font-family: inherit;
+  background: var(--primary-background-color);
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background: var(--link-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio-examples {
+  list-style: none;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
