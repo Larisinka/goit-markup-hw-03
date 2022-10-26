@@ -72,14 +72,16 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
 }
 
-.header-container > .logo {
+/* logo */
+
+.nav > .logo {
   margin-right: 94px;
 }
-/* logo */
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -94,6 +96,10 @@ body {
 }
 
 /* navigation  */
+.nav {
+  display: flex;
+  align-items: center;
+}
 
 .nav-list {
   display: flex;
@@ -109,6 +115,10 @@ body {
 }
 
 .nav-link {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -128,6 +138,10 @@ body {
 
 .nav-contacts-email,
 .nav-contacts-tel {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -214,6 +228,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .advantages-description {
@@ -262,7 +277,6 @@ body {
 
 .team-item {
   background-color: #ffffff;
-  padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -291,6 +305,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 30px;
 }
 
 /* footer for index.html and portfolio.html */
